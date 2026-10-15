@@ -1304,3 +1304,17 @@ input::placeholder, textarea::placeholder { color: var(--faint); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Fixed credit in the bottom-right corner. */
+.credit {
+  position: fixed;
+  right: var(--s4);
+  bottom: calc(var(--s3) + env(safe-area-inset-bottom));
+  z-index: 5;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--faint);
+  pointer-events: none;
+  user-select: none;
+}

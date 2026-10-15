@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { MenuIcon } from './components/Icons'
 import Logo from './components/Logo'
@@ -49,6 +49,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <div className="credit">Development by NMS</div>
     </ToastProvider>
   )
 }

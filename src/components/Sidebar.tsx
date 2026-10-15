@@ -35,7 +35,7 @@ export default function Sidebar({ open, onClose }: Props) {
         <div className="sb-brand">
           <Logo />
           <span className="sb-brand-name">Notebook</span>
-          <span className="sb-version">v3</span>
+          <span className="sb-version">v4</span>
           <button className="icon-button sb-close" onClick={onClose} aria-label="Close menu">
             <XIcon />
           </button>
